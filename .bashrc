@@ -1,3 +1,4 @@
+bind -f ~/.inputrc
 
 alias slime='open -a "Sublime Text"'
 alias pg-start='pg_ctl -D /usr/local/var/postgres/ start'
@@ -57,3 +58,5 @@ unset color_prompt
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export PATH=$PATH:/usr/local/sbin
+export PATH=$PATH:$HOME/go/build
+export GOPATH=$HOME/go
