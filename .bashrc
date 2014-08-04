@@ -7,6 +7,7 @@ alias ls='/bin/ls -FGH'
 alias be='bundle exec'
 alias reload='source ~/.bashrc'
 alias rs='rails'
+alias server='python -m SimpleHTTPServer 1337'
 
 # Git completion
 [[ -s "$HOME/.git-completion.sh" ]] && source "$HOME/.git-completion.sh"
