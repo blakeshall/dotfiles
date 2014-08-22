@@ -19,3 +19,4 @@ set tabstop=2
 set expandtab
 
 filetype indent plugin on
+execute pathogen#infect()

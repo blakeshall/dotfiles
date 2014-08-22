@@ -26,7 +26,7 @@
   untracked = cyan
 [core]
 	excludesfile = /Users/BlakeH/.gitignore
-	editor = mate -w
+	editor = vim
 	autocrlf = input
 [apply]
 	whitespace = nowarn
