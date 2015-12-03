@@ -62,3 +62,4 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export PATH=$PATH:/usr/local/sbin
 export PATH=$PATH:$HOME/go/build
 export GOPATH=$HOME/go
+eval "$(rbenv init -)"

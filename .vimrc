@@ -18,5 +18,3 @@ set softtabstop=2
 set tabstop=2
 set expandtab
 
-filetype indent plugin on
-execute pathogen#infect()
